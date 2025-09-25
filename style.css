@@ -1,0 +1,92 @@
+body {
+  margin: 0 0;
+  padding: 0 0;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif; /* font for header */
+}
+header {
+  border: #ccc solid 1px; /* border around header */
+  background-color: #ffffff; /* dark background */
+  color: #333; /* text color */
+  padding: 2em; /* spacing inside header */
+  display: flex; /* layout children side-by-side */
+  justify-content: space-between; /* space between title and nav */
+  align-items: center; /* vertical center */
+  font-family: "Montserrat", sans-serif; /* font for header */
+}
+nav {
+  display: flex; /* layout nav items side-by-side */
+  gap: 1em; /* space between nav items */
+}
+header a {
+  text-decoration: none; /* remove underline from links */
+  color: #b31cf9; /* link color */
+  font-weight: bold; /* make links bold */
+  transition: color 0.3s; /* smooth color change on hover */
+  border: #333 solid 1px; /* border around links */
+  padding: 0.5em 1em; /* padding inside link*/
+  border-radius: 5px; /* rounded corners for links */
+}
+a:hover {
+  color: #7a0093; /* change link color on hover */
+}
+main {
+  border: #ccc solid 1px; /* border around main content */
+  margin: 2em 0;
+  display: flex;
+  flex-direction: row;
+  padding: 2em; /* spacing inside main content */
+  background-color: #f9f9f9; /* light background for main content */
+  color: #333; /* text color */
+}
+button {
+  background-color: #ffffff; /* button background color */
+  color: #b31cf9; /* button text color */
+  border: 1px #333 solid; /* no border */
+  padding: 0.5em 1em; /* padding inside button */
+  border-radius: 5px; /* rounded corners for button */
+  cursor: pointer; /* pointer cursor on hover */
+  transition: background-color 0.3s; /* smooth background change on hover */
+}
+button:hover {
+  background-color: #b31cf9; /* change background color on hover */
+  color: #ffffff; /* change text color on hover */
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.footerText {
+  color: #333;
+  font-size: 0.9em;
+}
+.footerText a {
+  color: #af1de5;
+  text-decoration: none;
+}
+#timer {
+  flex: 1; /* take available space */
+  align-items: center; /* center items horizontally */
+  justify-content: center; /* center items vertically */
+  border-right: 1px solid #ccc; /* border around timer section */
+}
+#timers {
+  flex: 1; /* take available space */
+  align-items: center; /* center items horizontally */
+  justify-content: center; /* center items vertically */
+  padding-left: 2em; /* spacing inside timers section */
+}
+#timers h4 {
+  margin: 0.5em 0; /* spacing around headings */
+  color: #333; /* heading text color */
+}
+
+#timer h2 {
+  margin: 0.5em 0; /* spacing around timer heading */
+  color: #333; /* heading text color */
+}

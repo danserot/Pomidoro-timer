@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Timer Application</h2>
+        <nav>
+          <a href="#timer">Timer</a>
+          <a href="about.html">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section id="timer">
+          <h2>You are working :</h2>
+          <p id="time">00:00:00</p>
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+          <button id="reset">Reset</button>
+        </section>
+        <section id="timers">
+          <h4>Time before rest :</h4>
+          <p id="timeBeforeRest">00:00:00</p>
+          <h4>Time before work</h4>
+          <p id="timeBeforeWork">00:00:00</p>
+        </section>
+      </main>
+
+      <footer>
+        <p class="footerText">
+          Made by
+          <a
+            href="https://elaborate-meringue-fff0ed.netlify.app/"
+            target="_blank"
+            >Artem Khloptsev</a
+          >
+        </p>
+      </footer>
+      <script src="up.js"></script>
+    </div>
+  </body>
+</html>
